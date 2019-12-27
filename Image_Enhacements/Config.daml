@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArcGIS defaultAssembly="Image_Enhacements.dll"
+        defaultNamespace="Image_Enhacements"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+
+  <AddInInfo id="{775b14e8-d78d-4844-acbc-0a9a9400f5f1}" version="1.0" desktopVersion="2.4.19948">
+    <Name>Image_Enhacements</Name>   
+    <Description>Image_Enhacements description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>jescudero</Author>
+    <Company>Esri Colombia</Company>
+    <Date>12/27/2019 2:07:45 PM, 2019</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+
+  <modules>
+    <insertModule id="Image_Enhacements_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <tab id="Image_Enhacements_Tab1" caption="Image Enhacements">
+          <group refID="Image_Enhacements_Group1"/>
+        </tab>
+      </tabs>
+              
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="Image_Enhacements_Group1" caption="Enhancements" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+          <button refID="current_extent" size="large"></button>
+        </group>
+      </groups>
+      
+      <controls>
+        <!-- add your controls here -->
+        <button id="current_extent" caption ="Current Extent" className ="CurrentExtentStatistics" loadOnClick="true" smallImage="Images\statistics.png" largeImage="Images\statistics.png" keytip="">
+          <tooltip heading="Current Extent">
+            Current Extent<disabledText />
+          </tooltip>
+        </button>
+      </controls> 
+      
+    </insertModule>
+  </modules>
+</ArcGIS>

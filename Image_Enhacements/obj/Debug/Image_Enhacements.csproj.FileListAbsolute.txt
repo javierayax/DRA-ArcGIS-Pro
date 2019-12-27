@@ -1,0 +1,5 @@
+C:\jescudero\Esri\Siima\recursos_sig\code\dotNet\SIIMA_Image_Enhacements\Image_Enhacements\bin\Debug\Image_Enhacements.dll
+C:\jescudero\Esri\Siima\recursos_sig\code\dotNet\SIIMA_Image_Enhacements\Image_Enhacements\bin\Debug\Image_Enhacements.pdb
+C:\jescudero\Esri\Siima\recursos_sig\code\dotNet\SIIMA_Image_Enhacements\Image_Enhacements\obj\Debug\Image_Enhacements.csproj.CoreCompileInputs.cache
+C:\jescudero\Esri\Siima\recursos_sig\code\dotNet\SIIMA_Image_Enhacements\Image_Enhacements\obj\Debug\Image_Enhacements.dll
+C:\jescudero\Esri\Siima\recursos_sig\code\dotNet\SIIMA_Image_Enhacements\Image_Enhacements\obj\Debug\Image_Enhacements.pdb
